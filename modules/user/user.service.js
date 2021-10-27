@@ -75,7 +75,7 @@
         const jwt_decode = require('jwt-decode');
         const token = req.headers.authorization.split('bearer ')[1];
         //console.log(token);
-        const user = jwt_decode(token)['http://localhost/userData'];
+        const user = jwt_decode(token)['https://weparsebk.herokuapp.comt/userData'];
 
 
        // console.log(user);
